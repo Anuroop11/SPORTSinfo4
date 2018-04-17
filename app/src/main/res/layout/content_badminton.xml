@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apps.ani.sportsinfo4.Badminton"
+    tools:showIn="@layout/activity_badminton">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bad"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live Score"
+            android:id="@+id/livscore"
+            android:background="@color/orange_light"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:id="@+id/schedule"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ranking"
+            android:id="@+id/rank"
+            android:background="@color/orange_light"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:background="@color/colorPrimary"
+            android:id="@+id/news"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="@color/orange_light"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:id="@+id/videos"/>
+
+
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/web"/>
+</RelativeLayout>

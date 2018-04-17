@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_cricket"
+        android:icon="@drawable/cricket"
+        android:title="Cricket" />
+    <item
+        android:id="@+id/nav_football"
+        android:icon="@drawable/soccerballvariant"
+        android:title="Football" />
+    <item
+        android:id="@+id/nav_tennis"
+        android:icon="@drawable/manplayingtennis"
+        android:title="Tennis" />
+    <item
+        android:id="@+id/nav_badminton"
+        android:icon="@drawable/badmintonplayer"
+        android:title="Badminton" />
+
+</menu>
